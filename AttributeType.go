@@ -170,6 +170,7 @@ const (
 	PMIP6VisitedDHCP4ServerAddre AttributeType = iota
 	PMIP6HomeDHCP6ServerAddress  AttributeType = iota
 	PMIP6VisitedDHCP6ServerAddre AttributeType = iota
+	SikluUserGroup               AttributeType = 170
 	UnassignedStart              AttributeType = 161
 	UnassignedEnd                AttributeType = 191
 
@@ -360,6 +361,7 @@ var attributeTypeMap = [256]attributeTypeDesc{
 	PMIP6VisitedDHCP4ServerAddre: {"PMIP6VisitedDHCP4ServerAddress", avpBinary},
 	PMIP6HomeDHCP6ServerAddress:  {"PMIP6HomeDHCP6ServerAddress", avpBinary},
 	PMIP6VisitedDHCP6ServerAddre: {"PMIP6VisitedDHCP6ServerAddress", avpBinary},
+	SikluUserGroup:               {"SikluUserGroup", avpString},
 	UnassignedStart:              {"UnassignedStart", avpBinary}, //161
 	//Unassigned
 	UnassignedEnd:               {"UnassignedEnd", avpBinary},
